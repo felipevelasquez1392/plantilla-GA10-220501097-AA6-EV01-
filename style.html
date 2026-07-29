@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Proyecto - Landing Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Barra de navegación -->
+  <header class="navbar">
+    <div class="logo">Mi<span>Proyecto</span></div>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Sección principal -->
+  <section id="inicio" class="hero">
+    <div class="hero-content">
+      <h1>Bienvenido a Mi Proyecto</h1>
+      <p>Esta es una plantilla web básica creada para la actividad de evidencia GA10-220501097-AA6-EV01, lista para desplegar en un servicio de hosting gratuito.</p>
+      <a href="#contacto" class="btn">Contáctanos</a>
+    </div>
+  </section>
+
+  <!-- Servicios -->
+  <section id="servicios" class="servicios">
+    <h2>Nuestros Servicios</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Diseño Web</h3>
+        <p>Creamos sitios web modernos, responsivos y fáciles de usar.</p>
+      </div>
+      <div class="card">
+        <h3>Hosting</h3>
+        <p>Te ayudamos a poner en línea tu proyecto de forma rápida y segura.</p>
+      </div>
+      <div class="card">
+        <h3>Soporte</h3>
+        <p>Acompañamiento durante todo el proceso de despliegue.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Nosotros -->
+  <section id="nosotros" class="nosotros">
+    <h2>Sobre Nosotros</h2>
+    <p>Este proyecto fue desarrollado como evidencia de aprendizaje para el proceso de configuración y despliegue de servicios de hosting y dominio gratuito en internet.</p>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contacto" class="contacto">
+    <h2>Contáctanos</h2>
+    <form onsubmit="event.preventDefault(); alert('¡Gracias por tu mensaje!');">
+      <input type="text" placeholder="Tu nombre" required>
+      <input type="email" placeholder="Tu correo" required>
+      <textarea placeholder="Tu mensaje" rows="4" required></textarea>
+      <button type="submit" class="btn">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Mi Proyecto. Plantilla creada para fines educativos.</p>
+  </footer>
+
+</body>
+</html>
